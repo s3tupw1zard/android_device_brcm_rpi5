@@ -1,0 +1,68 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "raspberry-vanilla/android_external_alsa-lib",
+    "target_path": "external/alsa-lib"
+    "branch":      "android-14.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "raspberry-vanilla/android_external_alsa-utils",
+    "target_path": "external/alsa-utils"
+    "branch":      "android-14.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "raspberry-vanilla/android_external_libcamera",
+    "target_path": "external/libcamera"
+    "branch":      "android-14.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "raspberry-vanilla/android_external_libpisp",
+    "target_path": "external/libpisp"
+    "branch":      "android-14.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "raspberry-vanilla/android_external_libyaml",
+    "target_path": "external/libyaml"
+    "branch":      "android-14.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "raspberry-vanilla/android_external_libyuv_chromium",
+    "target_path": "external/libyuv_chromium"
+    "branch":      "android-14.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "raspberry-vanilla/android_external_ffmpeg",
+    "target_path": "external/ffmpeg"
+    "branch":      "android-14.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "raspberry-vanilla/android_external_ffmpeg_codec2",
+    "target_path": "external/ffmpeg_codec2"
+    "branch":      "android-14.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "raspberry-vanilla/android_external_libudev-zero",
+    "target_path": "external/libudev-zero"
+    "branch":      "android-14.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "raspberry-vanilla/android_external_raspberrypi-utils",
+    "target_path": "external/raspberrypi-utils"
+    "branch":      "android-14.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "raspberry-vanilla/android_external_v4l-utils",
+    "target_path": "external/v4l-utils"
+    "branch":      "android-14.0"
+  }
+]
