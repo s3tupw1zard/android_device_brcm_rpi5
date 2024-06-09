@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := rpi5
-PRODUCT_NAME := aosp_rpi5_car
+PRODUCT_NAME := lmodroid_rpi5_car
 PRODUCT_BRAND := Raspberry
 PRODUCT_MODEL := Raspberry Pi 5
 PRODUCT_MANUFACTURER := Raspberry
