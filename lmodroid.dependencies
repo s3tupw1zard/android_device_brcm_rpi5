@@ -1,6 +1,12 @@
 [
   {
     "remote":      "github",
+    "repository":  "raspberry-vanilla/android_device_brcm_rpi5-kernel",
+    "target_path": "device/brcm/rpi5-kernel"
+    "branch":      "android-14.0"
+  },
+  {
+    "remote":      "github",
     "repository":  "raspberry-vanilla/android_external_alsa-lib",
     "target_path": "external/alsa-lib"
     "branch":      "android-14.0"

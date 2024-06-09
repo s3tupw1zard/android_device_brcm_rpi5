@@ -43,6 +43,7 @@ BOARD_MESA3D_GALLIUM_DRIVERS := vc4 v3d
 BOARD_MESA3D_VULKAN_DRIVERS := broadcom
 
 # Kernel
+TARGET_PREBUILT_KERNEL := device/brcm/rpi5-kernel
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
 BOARD_KERNEL_CMDLINE := console=ttyAMA10,115200 no_console_suspend root=/dev/ram0 rootwait androidboot.hardware=rpi5
