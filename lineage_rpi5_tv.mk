@@ -7,8 +7,18 @@
 # Inherit device configuration
 $(call inherit-product, device/brcm/rpi5/device.mk)
 
+-include vendor/lineage-priv/keys/keys.mk
+
 PRODUCT_AAPT_PREF_CONFIG := tvdpi
 PRODUCT_CHARACTERISTICS := tv
+
+RISING_PACKAGE_TYPE := "WITH_GMS"
+TARGET_CORE_GMS := true
+
+TARGET_BOOT_ANIMATION_RES := 1080
+
+TARGET_ENABLE_BLUR := true
+
 $(call inherit-product, device/google/atv/products/atv_base.mk)
 
 # Android TV
