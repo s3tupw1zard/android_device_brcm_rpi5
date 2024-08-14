@@ -18,6 +18,7 @@ TARGET_CORE_GMS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_64_BIT_APPS := true
 
 $(call inherit-product, device/google/atv/products/atv_base.mk)
 

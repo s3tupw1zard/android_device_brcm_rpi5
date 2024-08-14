@@ -7,6 +7,16 @@
 # Inherit device configuration
 $(call inherit-product, device/brcm/rpi5/device.mk)
 
+-include vendor/lineage-priv/keys/keys.mk
+
+RISING_PACKAGE_TYPE := "WITH_GMS"
+TARGET_CORE_GMS := true
+
+TARGET_BOOT_ANIMATION_RES := 1080
+
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_64_BIT_APPS := true
+
 PRODUCT_AAPT_CONFIG := normal mdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_CHARACTERISTICS := automotive,nosdcard
@@ -72,7 +82,7 @@ PRODUCT_PACKAGES += \
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := rpi5
-PRODUCT_NAME := lmodroid_rpi5_car
+PRODUCT_NAME := lineage_rpi5_car
 PRODUCT_BRAND := Raspberry
 PRODUCT_MODEL := Raspberry Pi 5
 PRODUCT_MANUFACTURER := Raspberry
